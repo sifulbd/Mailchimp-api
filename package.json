@@ -1,0 +1,32 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "a mailchimp api tester",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sifulbd/Mailchimp-api.git"
+  },
+  "keywords": [
+    "mailchimp",
+    "api",
+    "vanilla",
+    "js"
+  ],
+  "author": "siful",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sifulbd/Mailchimp-api/issues"
+  },
+  "homepage": "https://github.com/sifulbd/Mailchimp-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "experss": "0.0.1-security",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "require": "^2.4.20"
+  }
+}
