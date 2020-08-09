@@ -35,10 +35,10 @@ app.post("/", function(req, res){
         ]
     }
     const jsonData = JSON.stringify(data);
-    const url = "https://us17.api.mailchimp.com/3.0/lists/98fc5d24dd";
+    const url = "https://us17.api.mailchimp.com/3.0/lists/audience id";
     const options = {
         method : "POST",
-        auth: "siful:cb8e5140ed7c2008191ba82249bb7333-us17"
+        auth: "siful:api key"
     }
     const request = https.request(url, options, function(response) {
         if(response.statusCode === 200) {
@@ -63,5 +63,3 @@ app.listen(port, () => {
     console.log("app is listening...")
 })
 
-// api key: cb8e5140ed7c2008191ba82249bb7333-us17
-// audience id=: 98fc5d24dd
